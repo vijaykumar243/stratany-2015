@@ -25,5 +25,5 @@ sub_location STRING,
 main_location STRING)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
 LINES TERMINATED BY '\n' 
-STORED AS parquet tblproperties ('parquet.compression'='SNAPPY');
+STORED AS parquet tblproperties ('parquet.compress'='SNAPPY');
 
